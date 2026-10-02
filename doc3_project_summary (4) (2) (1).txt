@@ -1,0 +1,94 @@
+PROJECT CLOSE-OUT SUMMARY
+Prepared by: Anita Desai, Senior Project Manager
+Distribution: Internal — Delivery Leadership, Finance, GTM
+
+─────────────────────────────────────────────────────────────
+
+Background and Context
+
+The engagement with Northstar Health Systems began following an introductory meeting at the Healthcare
+Innovation Summit in Chicago back in March of last year. After a competitive RFP process involving four
+vendors, we were awarded the contract in late July 2023, with formal project kick-off taking place on the
+fourteenth of August. The client is a mid-sized regional hospital network operating eleven facilities across
+Ohio and Pennsylvania, with a central IT function based in Columbus.
+
+The original scope covered three workstreams: an AI-powered prior authorisation assistant for their
+revenue cycle team, a clinical document summarisation capability integrated into their Epic EHR
+environment, and a compliance knowledge base covering CMS and HIPAA policy documents. All three
+workstreams were included in the initial Statement of Work signed by their CTO, Dr. Marcus Webb, and
+our own VP of Delivery, Sameer Krishnan.
+
+Financial Summary
+
+The total contract value was agreed at four hundred and twenty thousand US dollars. We invoiced in six
+tranches across the project lifecycle: an advance of sixty-three thousand on signing, followed by five
+milestone payments of varying size as each workstream delivered. The final invoice — covering the
+hypercare period and knowledge transfer — was for thirty-eight thousand five hundred dollars and was
+paid in full on the third of October this year, approximately two weeks ahead of the contractual due date,
+which was a pleasant change from the payment behaviour on our previous healthcare engagement.
+
+Total revenue recognised against this project was four hundred and eighteen thousand dollars, reflecting
+a small credit note issued in September after a scope reduction on the compliance knowledge base
+workstream — the client decided to limit indexing to CMS documents only, removing the HIPAA policy
+layer which we had scoped separately. This was handled via Change Request CR-007, approved by both
+parties on the ninth of September.
+
+Delivery Performance
+
+The prior authorisation assistant was the most technically complex component and also the one that
+caused us the most difficulty. We had initially scoped a six-week delivery for the RAG pipeline and
+chatbot interface, but encountered significant challenges with the client's legacy document store — a
+mixture of scanned PDFs, Word documents, and some older formats we had not anticipated during
+discovery. We ended up running two additional sprints and delivered the component eight weeks after
+the original target date. The client was understanding but it created tension that persisted through the
+rest of the engagement.
+
+The clinical document summarisation workstream, by contrast, was our smoothest delivery of the year.
+The Epic integration used a well-documented FHIR API, the client's IT team was well-prepared, and the
+AI summarisation quality was high enough that the model exceeded our accuracy threshold — ninety-one
+percent against a target of eighty-eight — on the first evaluation run. We went live on this workstream
+on the twenty-second of March, six days ahead of plan.
+
+The compliance knowledge base was delivered on time but with the reduced scope described above.
+
+Overall on-time delivery rate for the engagement, accounting for the prior auth delay, was assessed at
+seventy-three percent against our internal benchmark of eighty-eight percent. This is below our standard
+and will be documented in the post-mortem.
+
+Team Composition
+
+The core delivery team comprised seven people at peak: two senior engineers (Rohan Pillai and
+Devika Nambiar), one ML engineer (Tariq Hussain), two QA specialists, a business analyst, and Anita
+Desai as project manager. Rohan led the RAG pipeline work; Devika owned the Epic FHIR integration;
+Tariq was responsible for the summarisation model fine-tuning and the prompt evaluation framework.
+At various points we also drew on a fractional solution architect — approximately forty days across the
+project — and one additional QA resource for the regression cycle in month seven.
+
+Client Satisfaction and Next Steps
+
+End-of-project NPS score from the client was eight out of ten, collected via our standard close-out
+survey sent to five stakeholders on the client side. Dr. Webb's feedback was particularly positive about
+the clinical summarisation capability. Their Revenue Cycle Director, Patricia Okafor, flagged the prior
+auth delays in her written feedback and requested that any future engagement include a more rigorous
+document discovery phase upfront.
+
+We have a verbal commitment from Dr. Webb for a follow-on engagement covering AI-assisted clinical
+coding and denial management, estimated at approximately two hundred and fifty thousand dollars.
+The SOW for this work is being drafted by our sales team and is expected to be ready for client review
+by the end of this month. If signed, it would represent our largest single healthcare contract to date.
+
+Lessons Learned
+
+The main lesson from this engagement is that document discovery for RAG projects in healthcare
+environments requires dedicated time and should not be compressed into general discovery. We will be
+revising our standard healthcare engagement template to include a mandatory two-week document audit
+phase before any RAG pipeline scoping is committed. Tariq has agreed to lead the development of
+a document readiness checklist that can be used on future engagements.
+
+The second lesson is that FHIR API integrations, when the client IT team is well-prepared and the
+documentation is current, can actually go faster than scoped. We should consider this when estimating
+similar workstreams and not apply our standard thirty percent buffer on Epic FHIR work.
+
+Close-out date: 15 October 2024
+Document prepared: 18 October 2024
+Version: 1.0 — Final

@@ -1,0 +1,8 @@
+fastapi
+langchain_community
+uvicorn
+python-multipart
+pypdf
+jq
+langchain_groq
+PIL

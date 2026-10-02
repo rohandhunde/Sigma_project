@@ -1,0 +1,186 @@
+════════════════════════════════════════════════════════════════
+EMAIL THREAD EXPORT
+Subject: RE: RE: RE: Vendor Onboarding — SupplyChain AI Module
+Exported: 2024-11-01 09:14 IST
+Thread ID: MSG-2024-10-SC-00441
+════════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────────
+From:    Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>
+To:      procurement@nexustrade.ae; vendors@nexustrade.ae
+CC:      legal@nexustrade.ae
+Date:    Monday, 14 October 2024, 11:22 GST
+Subject: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Team,
+
+As discussed in Friday's call, we are moving forward with the vendor selection for the
+SupplyChain AI module. We have shortlisted two vendors: Meridian AI Solutions and Kestrel
+Tech. Both have been asked to provide updated commercial proposals by end of this week.
+
+Key requirements reminder:
+- Automated PO matching and three-way invoice reconciliation
+- Supplier document ingestion (PDF invoices, delivery notes, customs docs)
+- Integration with our SAP S/4HANA environment
+- Go-live target: Q1 2025
+
+Please route all vendor correspondence through this thread so we have a complete record.
+
+Fatima Al-Rashidi
+Head of Digital Procurement
+NexusTrade DMCC, Dubai
+
+
+────────────────────────────────────────────────────────────────
+From:    Vikram Sood <v.sood@meridianai.in>
+To:      Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>
+CC:      procurement@nexustrade.ae; ananya.r@meridianai.in
+Date:    Wednesday, 16 October 2024, 14:08 IST
+Subject: RE: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Dear Fatima,
+
+Thank you for the brief. Please find our updated commercial proposal attached (Meridian_AI_
+Proposal_v2_NexusTrade.pdf — attachment not included in this export).
+
+Summary of our proposal:
+- Implementation fee: USD 195,000 (fixed price)
+- Annual platform licence: USD 48,000/year (from go-live)
+- SAP S/4HANA connector: included at no additional cost
+- Estimated go-live: 15 March 2025
+- Payment terms: 30% on signing, 40% at UAT milestone, 30% at go-live
+
+We are confident we can meet the Q1 2025 timeline. Our team has delivered three SAP
+integrations in the past 18 months, including one for a trading company of comparable size.
+
+Happy to arrange a technical walkthrough at your convenience.
+
+Best regards,
+Vikram Sood
+Head of Sales — MENA Region
+Meridian AI Solutions
+
+
+────────────────────────────────────────────────────────────────
+From:    procurement@nexustrade.ae
+To:      Vikram Sood <v.sood@meridianai.in>
+CC:      Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>; legal@nexustrade.ae
+Date:    Thursday, 17 October 2024, 10:31 GST
+Subject: RE: RE: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Vikram,
+
+Thank you for the proposal. A few clarifications needed before we can proceed to review:
+
+1. Your proposal mentions "three-way reconciliation" — can you confirm this includes
+   tolerance-based matching (we work to a 0.5% variance threshold)?
+
+2. The annual licence — is this per entity or per the group? We have four legal entities
+   that would need access.
+
+3. Data residency: all data must remain within UAE jurisdiction. Can you confirm your
+   cloud infrastructure supports this?
+
+4. What is the warranty period post go-live?
+
+We are also still waiting for Kestrel Tech's proposal which was due yesterday.
+
+Regards,
+NexusTrade Procurement Team
+
+
+────────────────────────────────────────────────────────────────
+From:    Vikram Sood <v.sood@meridianai.in>
+To:      procurement@nexustrade.ae
+CC:      Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>; ananya.r@meridianai.in
+Date:    Thursday, 17 October 2024, 16:45 IST
+Subject: RE: RE: RE: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Team,
+
+Responses to your questions:
+
+1. Tolerance-based matching: Yes, confirmed. Our reconciliation engine supports
+   configurable tolerance thresholds. The 0.5% variance you mentioned is well within
+   our standard configuration range.
+
+2. Annual licence — IMPORTANT UPDATE: The USD 48,000 figure in our earlier proposal
+   was quoted per-entity. For four entities as you describe, the correct annual licence
+   would be USD 162,000/year. We apologise for the ambiguity in the original proposal.
+   We can offer a group discount bringing this to USD 144,000/year if all four entities
+   are contracted simultaneously.
+
+3. Data residency: We deploy on Microsoft Azure. Azure has a UAE North data centre
+   (Abu Dhabi). All data can be configured to remain within this region. We can include
+   a data residency addendum in the contract.
+
+4. Warranty: Standard 90-day warranty post go-live, covering defect resolution at no
+   additional cost. Extended warranty available at 8% of annual licence per year.
+
+Please note the revised total cost of ownership for year one: USD 195,000 (implementation)
++ USD 144,000 (group licence, year 1) = USD 339,000.
+
+Kind regards,
+Vikram
+
+
+────────────────────────────────────────────────────────────────
+From:    Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>
+To:      procurement@nexustrade.ae; legal@nexustrade.ae
+CC:      cto@nexustrade.ae
+Date:    Sunday, 20 October 2024, 09:17 GST
+Subject: RE: RE: RE: RE: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Internal note — not sent to vendors.
+
+Team,
+
+Kestrel Tech came in at USD 310,000 total for year 1 (implementation + licence, single
+entity only — they do not offer multi-entity pricing). They are cheaper per entity but
+their SAP integration requires a third-party middleware that adds approximately USD 35,000
+additional cost. Effective year-1 cost for Kestrel covering four entities would be
+approximately USD 380,000+.
+
+Meridian is ahead on commercial terms when adjusted for multi-entity.
+
+I am recommending we proceed with Meridian subject to:
+a) Legal review of the data residency addendum
+b) A reference check with one of their existing SAP integration clients
+c) Confirmation that the 15 March go-live is contractually committed (not just estimated)
+
+I will send the formal selection notification to Meridian by end of week pending legal sign-off.
+
+Fatima
+
+
+────────────────────────────────────────────────────────────────
+From:    legal@nexustrade.ae
+To:      Fatima Al-Rashidi <f.alrashidi@nexustrade.ae>
+CC:      procurement@nexustrade.ae
+Date:    Monday, 21 October 2024, 11:03 GST
+Subject: RE: RE: RE: RE: RE: Vendor Onboarding — SupplyChain AI Module
+────────────────────────────────────────────────────────────────
+
+Fatima,
+
+Legal has reviewed. No objections to proceeding with Meridian subject to the data
+residency addendum being included as a Schedule to the main contract, not as a
+side letter. Please ensure Vikram's team is aware of this requirement.
+
+Also flag to procurement: the payment terms (30/40/30) are acceptable but we
+need the UAT milestone defined contractually — the current proposal language
+"UAT milestone" is too vague. Request a specific definition before signing.
+
+We can turn around a contract review within 5 business days once we receive
+the draft from Meridian.
+
+Legal Team
+NexusTrade DMCC
+════════════════════════════════════════════════════════════════
+END OF THREAD
+════════════════════════════════════════════════════════════════

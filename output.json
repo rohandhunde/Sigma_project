@@ -1,0 +1,67 @@
+{
+  "doc5_logistics_data_export (4) (2) (1).json": {
+    "document_type": "data_export",
+    "summary": "The export contains seven shipment records with details on origins, destinations, carriers, and financials. It shows declared values ranging from $34,200 to AED 2,100,000 and freight costs up to $7,400, but the data has several quality issues such as missing fields, mixed currencies, and inconsistent date formats.",
+    "confidence": "LOW",
+    "confidence_reasons": [
+      "Record count mismatch between metadata (12) and actual records (7)",
+      "Multiple missing or empty critical fields (e.g., amendment_reason, arrival_date, clearance_date, customs_hold_reason, declared_value_usd_equiv, original_shipment_id, special_handling, vessel, voyage_number)",
+      "Multiple currencies detected (AED and USD)",
+      "Inconsistent date formats across records",
+      "Missing freight cost amount for shipment CLK-2024-10-00882",
+      "Missing arrival date and vessel for shipment CLK-2024-10-00897",
+      "Pre-computed checks indicate numerous data quality problems",
+      "Validation found 2 problem(s)"
+    ],
+    "data_quality_issues": [
+      "Record count mismatch: metadata specifies 12 records, but only 7 found in export",
+      "Field 'amendment_reason' missing/empty in 6 of 7 records",
+      "Field 'arrival_date' missing/empty in 1 of 7 records",
+      "Field 'clearance_date' missing/empty in 5 of 7 records",
+      "Field 'customs_hold_reason' missing/empty in 6 of 7 records",
+      "Field 'declared_value_usd_equiv' missing/empty in 6 of 7 records",
+      "Field 'original_shipment_id' missing/empty in 6 of 7 records",
+      "Field 'special_handling' missing/empty in 6 of 7 records",
+      "Field 'vessel' missing/empty in 1 of 7 records",
+      "Field 'voyage_number' missing/empty in 2 of 7 records",
+      "Multiple currencies detected across shipments: ['AED', 'USD']",
+      "Inconsistent date formats across records: ['DD-Mon-YYYY', 'Month DD, YYYY', 'YYYY-MM-DD']",
+      "Missing freight cost amount for shipment CLK-2024-10-00882",
+      "Missing arrival date for shipment CLK-2024-10-00897",
+      "Missing vessel for shipment CLK-2024-10-00897",
+      "Contains amended shipment record(s): ['CLK-2024-10-00882-A'] (amends original shipment)",
+      "Shipment(s) flagged on customs hold: ['CLK-2024-10-00884']",
+      "Hazardous material shipment(s) identified: ['CLK-2024-10-00901']",
+      "Date not normalised to YYYY-MM-DD: 2024",
+      "No identifiers extracted"
+    ],
+    "parties_involved": [
+      "Maersk Line",
+      "MSC",
+      "Hapag-Lloyd",
+      "ONE (Ocean Network Express)",
+      "CMA CGM",
+      "Evergreen Marine",
+      "VanderMeer Auto Components BV",
+      "Schulz Textilhandel GmbH",
+      "BritPharm Ingredients Ltd",
+      "SmartHome Distributors Inc",
+      "Lanka Packaging Industries",
+      "Western Chemical Distributors LLC",
+      "Bharat Auto Parts Pvt Ltd",
+      "Coimbatore Cotton Mills Ltd",
+      "Aurobindo Pharma Ltd",
+      "GulfTech Trading LLC",
+      "Bengal Jute Products Ltd",
+      "Gujarat Chemicals Pvt Ltd",
+      "CargoLink TMS v4.2.1"
+    ],
+    "key_dates": [
+      "2024-10-31",
+      "2024"
+    ],
+    "amounts": [],
+    "key_identifiers": {},
+    "raw_text": null
+  }
+}

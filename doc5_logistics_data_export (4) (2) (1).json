@@ -1,0 +1,336 @@
+{
+  "export_metadata": {
+    "source_system": "CargoLink TMS v4.2.1",
+    "export_timestamp": "2024-10-31T23:59:41Z",
+    "exported_by": "system_scheduler",
+    "record_count": 12,
+    "export_type": "shipment_manifest_batch",
+    "note": "Monthly close export \u2014 includes some resubmitted records flagged with is_amendment"
+  },
+  "shipments": [
+    {
+      "shipment_id": "CLK-2024-10-00881",
+      "origin": {
+        "city": "Mumbai",
+        "country": "IN",
+        "port_code": "INBOM"
+      },
+      "destination": {
+        "city": "Rotterdam",
+        "country": "NL",
+        "port_code": "NLRTM"
+      },
+      "carrier": "Maersk Line",
+      "vessel": "Maersk Sentosa",
+      "voyage_number": "MK-4421W",
+      "departure_date": "2024-10-04",
+      "arrival_date": "2024-10-28",
+      "cargo_description": "Automotive parts \u2014 gearbox assemblies",
+      "hs_code": "8708.40",
+      "containers": [
+        {
+          "id": "MSKU7234891",
+          "type": "40HC",
+          "weight_kg": 18420
+        }
+      ],
+      "declared_value": {
+        "amount": 284000,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": 3200,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08201",
+      "status": "delivered",
+      "is_amendment": false,
+      "customs_cleared": true,
+      "clearance_date": "2024-10-29",
+      "consignee": "VanderMeer Auto Components BV",
+      "shipper": "Bharat Auto Parts Pvt Ltd",
+      "incoterm": "CIF"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00882",
+      "origin": {
+        "city": "Chennai",
+        "country": "IN",
+        "port_code": "INMAA"
+      },
+      "destination": {
+        "city": "Hamburg",
+        "country": "DE",
+        "port_code": "DEHAM"
+      },
+      "carrier": "MSC",
+      "vessel": "MSC Virtuosa",
+      "voyage_number": null,
+      "departure_date": "04-Oct-2024",
+      "arrival_date": "30-Oct-2024",
+      "cargo_description": "Textile goods \u2014 cotton fabric rolls",
+      "hs_code": "5208.21",
+      "containers": [
+        {
+          "id": "MSCU4421003",
+          "type": "20GP",
+          "weight_kg": 12100
+        },
+        {
+          "id": "MSCU4421004",
+          "type": "20GP",
+          "weight_kg": 11800
+        }
+      ],
+      "declared_value": {
+        "amount": 98500,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": null,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08209",
+      "status": "in_transit",
+      "is_amendment": false,
+      "customs_cleared": false,
+      "clearance_date": null,
+      "consignee": "Schulz Textilhandel GmbH",
+      "shipper": "Coimbatore Cotton Mills Ltd",
+      "incoterm": "FOB"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00884",
+      "origin": {
+        "city": "Nhava Sheva",
+        "country": "IN",
+        "port_code": "INNSA"
+      },
+      "destination": {
+        "city": "Felixstowe",
+        "country": "GB",
+        "port_code": "GBFXT"
+      },
+      "carrier": "Hapag-Lloyd",
+      "vessel": "Colombo Express",
+      "voyage_number": "HL-8812E",
+      "departure_date": "2024-10-08",
+      "arrival_date": "2024-11-01",
+      "cargo_description": "Pharmaceutical raw materials \u2014 APIs",
+      "hs_code": "2941.90",
+      "containers": [
+        {
+          "id": "HLXU3012445",
+          "type": "20GP",
+          "weight_kg": 8200
+        }
+      ],
+      "declared_value": {
+        "amount": 1250000,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": 4800,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08214",
+      "status": "customs_hold",
+      "is_amendment": false,
+      "customs_cleared": false,
+      "clearance_date": null,
+      "customs_hold_reason": "Additional documentation required \u2014 MHRA import licence",
+      "consignee": "BritPharm Ingredients Ltd",
+      "shipper": "Aurobindo Pharma Ltd",
+      "incoterm": "DAP"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00882-A",
+      "original_shipment_id": "CLK-2024-10-00882",
+      "origin": {
+        "city": "Chennai",
+        "country": "IN",
+        "port_code": "INMAA"
+      },
+      "destination": {
+        "city": "Hamburg",
+        "country": "DE",
+        "port_code": "DEHAM"
+      },
+      "carrier": "MSC",
+      "vessel": "MSC Virtuosa",
+      "voyage_number": "MSC-7741W",
+      "departure_date": "2024-10-04",
+      "arrival_date": "2024-10-30",
+      "cargo_description": "Textile goods \u2014 cotton fabric rolls",
+      "hs_code": "5208.21",
+      "containers": [
+        {
+          "id": "MSCU4421003",
+          "type": "20GP",
+          "weight_kg": 12100
+        },
+        {
+          "id": "MSCU4421004",
+          "type": "20GP",
+          "weight_kg": 11800
+        }
+      ],
+      "declared_value": {
+        "amount": 98500,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": 2850,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08209-A",
+      "status": "in_transit",
+      "is_amendment": true,
+      "amendment_reason": "Corrected voyage number and missing freight cost",
+      "customs_cleared": false,
+      "clearance_date": null,
+      "consignee": "Schulz Textilhandel GmbH",
+      "shipper": "Coimbatore Cotton Mills Ltd",
+      "incoterm": "FOB"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00891",
+      "origin": {
+        "city": "Dubai",
+        "country": "AE",
+        "port_code": "AEJEA"
+      },
+      "destination": {
+        "city": "New York",
+        "country": "US",
+        "port_code": "USNYC"
+      },
+      "carrier": "CMA CGM",
+      "vessel": "CMA CGM Antoine de Saint Exupery",
+      "voyage_number": "CMA-1190N",
+      "departure_date": "October 12, 2024",
+      "arrival_date": "October 29, 2024",
+      "cargo_description": "Consumer electronics \u2014 smart home devices",
+      "hs_code": "8543.70",
+      "containers": [
+        {
+          "id": "CMAU6712009",
+          "type": "40HC",
+          "weight_kg": 14300
+        },
+        {
+          "id": "CMAU6712010",
+          "type": "40HC",
+          "weight_kg": 13900
+        }
+      ],
+      "declared_value": {
+        "amount": 2100000,
+        "currency": "AED"
+      },
+      "declared_value_usd_equiv": 571500,
+      "freight_cost": {
+        "amount": 7400,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08228",
+      "status": "delivered",
+      "is_amendment": false,
+      "customs_cleared": true,
+      "clearance_date": "2024-10-30",
+      "consignee": "SmartHome Distributors Inc",
+      "shipper": "GulfTech Trading LLC",
+      "incoterm": "CFR"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00897",
+      "origin": {
+        "city": "Kolkata",
+        "country": "IN",
+        "port_code": "INCCU"
+      },
+      "destination": {
+        "city": "Colombo",
+        "country": "LK",
+        "port_code": "LKCMB"
+      },
+      "carrier": "Evergreen Marine",
+      "vessel": null,
+      "voyage_number": null,
+      "departure_date": "2024-10-18",
+      "arrival_date": null,
+      "cargo_description": "Jute products \u2014 bags and sacking",
+      "hs_code": "6305.10",
+      "containers": [
+        {
+          "id": "EISU2341007",
+          "type": "20GP",
+          "weight_kg": 9600
+        }
+      ],
+      "declared_value": {
+        "amount": 34200,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": 980,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08234",
+      "status": "booking_confirmed",
+      "is_amendment": false,
+      "customs_cleared": false,
+      "clearance_date": null,
+      "consignee": "Lanka Packaging Industries",
+      "shipper": "Bengal Jute Products Ltd",
+      "incoterm": "CFR"
+    },
+    {
+      "shipment_id": "CLK-2024-10-00901",
+      "origin": {
+        "city": "Mundra",
+        "country": "IN",
+        "port_code": "INMUN"
+      },
+      "destination": {
+        "city": "Los Angeles",
+        "country": "US",
+        "port_code": "USLAX"
+      },
+      "carrier": "ONE (Ocean Network Express)",
+      "vessel": "NYK Rigel",
+      "voyage_number": "ONE-2241E",
+      "departure_date": "2024-10-22",
+      "arrival_date": "2024-11-14",
+      "cargo_description": "Chemical intermediates \u2014 industrial solvents",
+      "hs_code": "2901.10",
+      "containers": [
+        {
+          "id": "ONEY5512341",
+          "type": "20GP",
+          "weight_kg": 17800,
+          "hazmat": true,
+          "imdg_class": "3",
+          "un_number": "UN1993"
+        }
+      ],
+      "declared_value": {
+        "amount": 187000,
+        "currency": "USD"
+      },
+      "freight_cost": {
+        "amount": 5100,
+        "currency": "USD"
+      },
+      "invoice_number": "RFC/INV/2024/08241",
+      "status": "in_transit",
+      "is_amendment": false,
+      "customs_cleared": false,
+      "clearance_date": null,
+      "special_handling": "Hazardous materials \u2014 Class 3 flammable liquid",
+      "consignee": "Western Chemical Distributors LLC",
+      "shipper": "Gujarat Chemicals Pvt Ltd",
+      "incoterm": "CIF"
+    }
+  ]
+}
